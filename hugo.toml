@@ -24,6 +24,14 @@ disableKinds = ["taxonomy", "term"]
     url = "/software/"
     weight = 3
   [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 5
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 6

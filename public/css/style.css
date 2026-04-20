@@ -2,13 +2,61 @@
    CREEVEY LAB — Main Stylesheet
    ============================================================ */
 
+/* ============================================================
+   COLOUR PALETTES — uncomment one block, comment the others
+   ============================================================
+
+--- OPTION 1: Current (QUB Navy + Teal) --- ACTIVE BELOW ---
+
+--- OPTION 2: Forest Green + Gold ---
 :root {
-  --navy:        #002147;
-  --navy-dark:   #001530;
-  --navy-light:  #003d82;
-  --teal:        #007A7A;
-  --teal-light:  #00A896;
-  --teal-bg:     #e8f5f5;
+  --navy:        #1a3a2a;
+  --navy-dark:   #0f2418;
+  --navy-light:  #24503a;
+  --teal:        #8b6914;
+  --teal-light:  #c49a1e;
+  --teal-bg:     #fdf8e8;
+}
+
+--- OPTION 3: Deep Purple + Cyan ---
+:root {
+  --navy:        #2d1b69;
+  --navy-dark:   #1e1248;
+  --navy-light:  #3d2888;
+  --teal:        #0891b2;
+  --teal-light:  #22d3ee;
+  --teal-bg:     #ecfeff;
+}
+
+--- OPTION 4: Charcoal + Emerald ---
+:root {
+  --navy:        #1c2b20;
+  --navy-dark:   #111a14;
+  --navy-light:  #263d2c;
+  --teal:        #059669;
+  --teal-light:  #10b981;
+  --teal-bg:     #ecfdf5;
+}
+
+--- OPTION 5: Midnight + Coral ---
+:root {
+  --navy:        #1e3a5f;
+  --navy-dark:   #142944;
+  --navy-light:  #2a5080;
+  --teal:        #e05c3a;
+  --teal-light:  #f07d5a;
+  --teal-bg:     #fef0eb;
+}
+
+============================================================ */
+
+:root {
+  --navy:        #1e3a5f;
+  --navy-dark:   #142944;
+  --navy-light:  #2a5080;
+  --teal:        #e05c3a;
+  --teal-light:  #f07d5a;
+  --teal-bg:     #fef0eb;
   --white:       #ffffff;
   --off-white:   #f8f9fb;
   --grey-100:    #f1f3f5;
@@ -76,14 +124,14 @@ a:hover { color: var(--teal-light); }
 .hero::before {
   content: ''; position: absolute; top: -50%; right: -10%;
   width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(0,168,150,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(240,125,90,0.15) 0%, transparent 70%);
   pointer-events: none;
 }
 .hero-inner { max-width: var(--max-width); margin: 0 auto; }
 .hero-tag {
   display: inline-block;
-  background: rgba(0,168,150,0.2); color: var(--teal-light);
-  border: 1px solid rgba(0,168,150,0.4);
+  background: rgba(240,125,90,0.2); color: var(--teal-light);
+  border: 1px solid rgba(240,125,90,0.4);
   padding: 0.3rem 0.9rem; border-radius: 20px;
   font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
   margin-bottom: 1.25rem;
@@ -106,6 +154,35 @@ a:hover { color: var(--teal-light); }
 .hero-stat-num { font-size: 2rem; font-weight: 800; color: var(--teal-light); display: block; line-height: 1; }
 .hero-stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.3rem; }
 
+/* Hero background image */
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.hero-bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center right;
+  filter: invert(1) hue-rotate(200deg) saturate(0.5) brightness(0.65);
+  opacity: 0.45;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(20, 41, 68, 1.0)  0%,
+    rgba(20, 41, 68, 0.88) 45%,
+    rgba(20, 41, 68, 0.25) 100%
+  );
+  z-index: 1;
+}
+.hero-inner { position: relative; z-index: 2; }
+
 /* ============================================================
    BUTTONS
    ============================================================ */
@@ -117,8 +194,8 @@ a:hover { color: var(--teal-light); }
 }
 .btn-primary { background: var(--teal-light); color: var(--white); border-color: var(--teal-light); }
 .btn-primary:hover {
-  background: #009688; border-color: #009688; color: var(--white);
-  transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,168,150,0.4);
+  background: #c94d2a; border-color: #c94d2a; color: var(--white);
+  transform: translateY(-1px); box-shadow: 0 4px 12px rgba(224,92,58,0.4);
 }
 .btn-outline { background: transparent; color: var(--white); border-color: rgba(255,255,255,0.4); }
 .btn-outline:hover {
@@ -321,6 +398,90 @@ a:hover { color: var(--teal-light); }
   display: flex; align-items: center; justify-content: center;
 }
 .contact-map iframe { width: 100%; height: 100%; min-height: 360px; border: none; display: block; }
+
+/* ============================================================
+   PROJECTS
+   ============================================================ */
+.proj-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.25rem; margin-bottom: 1rem;
+}
+.proj-card {
+  background: var(--white); border-radius: var(--radius); padding: 1.5rem;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--grey-200);
+  transition: all var(--transition); display: flex; flex-direction: column; gap: 0.75rem;
+}
+.proj-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.proj-card-top { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
+.proj-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--grey-900); line-height: 1.4; flex: 1; }
+.proj-shortname { display: block; font-size: 1rem; font-weight: 800; color: var(--navy); margin-bottom: 0.2rem; }
+.proj-card p { font-size: 0.85rem; color: var(--grey-600); line-height: 1.6; flex: 1; }
+.proj-meta {
+  display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;
+  padding-top: 0.75rem; border-top: 1px solid var(--grey-200); margin-top: auto;
+}
+.proj-funder { font-size: 0.75rem; font-weight: 600; color: var(--navy); }
+.proj-value { font-size: 0.75rem; font-weight: 700; color: var(--teal); margin-left: auto; }
+.proj-dates { font-size: 0.72rem; color: var(--grey-600); width: 100%; }
+
+/* Theme badges */
+.proj-theme-badge {
+  font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.6rem;
+  border-radius: 20px; letter-spacing: 0.04em; white-space: nowrap;
+}
+.theme-amr         { background: #fee2e2; color: #991b1b; }
+.theme-food        { background: #dcfce7; color: #166534; }
+.theme-environment { background: #dbeafe; color: #1e40af; }
+.theme-clinical    { background: #ede9fe; color: #5b21b6; }
+.theme-surveillance{ background: #fef3c7; color: #92400e; }
+.theme-biosecurity { background: #f1f5f9; color: #334155; }
+.badge-sm { font-size: 0.65rem; padding: 0.15rem 0.5rem; }
+
+/* Role badge */
+.proj-role { font-size: 0.7rem; font-weight: 800; padding: 0.2rem 0.55rem; border-radius: 4px; white-space: nowrap; }
+.role-pi  { background: var(--navy); color: var(--white); }
+.role-coi { background: var(--grey-200); color: var(--grey-800); }
+
+/* Completed list */
+.proj-completed-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.proj-completed-item {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.9rem 1.1rem; background: var(--white);
+  border: 1px solid var(--grey-200); border-radius: 8px;
+  font-size: 0.875rem;
+}
+.proj-completed-content { flex: 1; }
+.proj-completed-content strong { display: block; color: var(--grey-900); font-weight: 600; }
+.proj-completed-meta { font-size: 0.78rem; color: var(--grey-600); }
+
+@media (max-width: 768px) {
+  .proj-grid { grid-template-columns: 1fr; }
+  .proj-completed-item { flex-wrap: wrap; }
+}
+
+/* ============================================================
+   PUBLICATIONS
+   ============================================================ */
+.pub-profile-card {
+  display: flex; gap: 1.25rem; align-items: flex-start;
+  background: var(--white); border-radius: var(--radius);
+  padding: 2rem; border: 1px solid var(--grey-200);
+  box-shadow: var(--shadow-sm); text-decoration: none;
+  color: inherit; transition: all var(--transition);
+}
+.pub-profile-card:hover {
+  box-shadow: var(--shadow-md); transform: translateY(-3px);
+  border-color: var(--teal); color: inherit;
+}
+.pub-profile-icon { font-size: 2.5rem; flex-shrink: 0; line-height: 1; }
+.pub-profile-card h2 { font-size: 1.2rem; font-weight: 700; color: var(--navy); margin-bottom: 0.4rem; }
+.pub-profile-card p { font-size: 0.875rem; color: var(--grey-600); line-height: 1.6; margin-bottom: 0.75rem; }
+.pub-profile-link { font-size: 0.85rem; font-weight: 700; color: var(--teal); }
+.pub-profile-card:hover .pub-profile-link { color: var(--teal-light); }
+
+@media (max-width: 600px) {
+  .pub-profile-card { grid-column: span 1; }
+}
 
 /* ============================================================
    FOOTER

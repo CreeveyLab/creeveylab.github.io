@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Publications</h1>
+  <p>Research outputs from the Creevey Lab</p>
+</div>
+
+<section class="section">
+  <div class="container" style="max-width: 860px;">
+
+    <div class="section-header">
+      <p class="section-desc">Our full publication list is maintained on Google Scholar and ORCID. Both are kept up to date and include citation metrics, full-text links, and co-author information.</p>
+    </div>
+
+    <!-- Profile cards -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 4rem;">
+
+      <a href="https://scholar.google.com/citations?user=7JkjEd4AAAAJ&hl=en"
+         target="_blank" rel="noopener"
+         class="pub-profile-card">
+        <div class="pub-profile-icon">🎓</div>
+        <div>
+          <h2>Google Scholar</h2>
+          <p>Full publication list with citation counts, h-index, and links to PDFs. Updated automatically.</p>
+          <span class="pub-profile-link">View profile →</span>
+        </div>
+      </a>
+
+      <a href="https://orcid.org/0000-0001-7183-1555"
+         target="_blank" rel="noopener"
+         class="pub-profile-card">
+        <div class="pub-profile-icon" style="color: #a6ce39;">🆔</div>
+        <div>
+          <h2>ORCID</h2>
+          <p>Verified researcher profile with persistent identifier, employment history, and linked works.</p>
+          <span class="pub-profile-link">View profile →</span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Direct links -->
+    <div style="text-align: center; padding: 2.5rem; background: var(--off-white); border-radius: var(--radius); border: 1px solid var(--grey-200);">
+      <div class="section-label">Quick Links</div>
+      <h2 style="color: var(--navy); font-size: 1.4rem; font-weight: 800; margin: 0.5rem 0 0.75rem;">Prof. Chris Creevey</h2>
+      <p style="color: var(--grey-600); margin-bottom: 1.5rem; font-size: 0.95rem;">
+        ORCID: <a href="https://orcid.org/0000-0001-7183-1555" target="_blank" rel="noopener" style="font-family: monospace;">0000-0001-7183-1555</a>
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://scholar.google.com/citations?user=7JkjEd4AAAAJ&hl=en"
+           target="_blank" rel="noopener" class="btn btn-secondary">
+          🎓 Google Scholar
+        </a>
+        <a href="https://orcid.org/0000-0001-7183-1555"
+           target="_blank" rel="noopener" class="btn btn-secondary">
+          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID" style="width:16px;height:16px;display:inline;"> ORCID Profile
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+{{ end }}

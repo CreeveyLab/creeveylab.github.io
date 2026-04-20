@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Projects</h1>
+  <p>Funded research across health, agriculture, environment, and biosecurity</p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Theme legend -->
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 3rem; justify-content: center;">
+      <span class="proj-theme-badge theme-amr">AMR &amp; One Health</span>
+      <span class="proj-theme-badge theme-food">Food &amp; Agriculture</span>
+      <span class="proj-theme-badge theme-environment">Environmental</span>
+      <span class="proj-theme-badge theme-clinical">Clinical</span>
+      <span class="proj-theme-badge theme-surveillance">Surveillance</span>
+      <span class="proj-theme-badge theme-biosecurity">Biosecurity</span>
+    </div>
+
+    <!-- Active projects -->
+    <div class="section-label" style="margin-bottom: 1.5rem;">Active Projects</div>
+    <div class="proj-grid">
+      {{ range hugo.Data.projects.active }}
+      <div class="proj-card">
+        <div class="proj-card-top">
+          <span class="proj-theme-badge theme-{{ .theme }}">{{ if eq .theme "amr" }}AMR &amp; One Health{{ else if eq .theme "food" }}Food &amp; Agriculture{{ else if eq .theme "environment" }}Environmental{{ else if eq .theme "clinical" }}Clinical{{ else if eq .theme "surveillance" }}Surveillance{{ else if eq .theme "biosecurity" }}Biosecurity{{ end }}</span>
+          <span class="proj-role {{ if eq .role "PI" }}role-pi{{ else }}role-coi{{ end }}">{{ .role }}</span>
+        </div>
+        <h3>{{ with .shortname }}<span class="proj-shortname">{{ . }}</span>{{ end }}{{ .title }}</h3>
+        {{ with .description }}<p>{{ . }}</p>{{ end }}
+        <div class="proj-meta">
+          <span class="proj-funder">{{ .funder_short }}</span>
+          <span class="proj-value">{{ .value }}</span>
+          <span class="proj-dates">{{ dateFormat "Jan 2006" .start }} – {{ dateFormat "Jan 2006" .end }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Recent / completed -->
+    <div class="section-label" style="margin: 4rem 0 1.5rem;">Recent Completed Projects</div>
+    <div class="proj-completed-list">
+      {{ range hugo.Data.projects.recent }}
+      <div class="proj-completed-item">
+        <span class="proj-theme-badge theme-{{ .theme }} badge-sm">{{ if eq .theme "amr" }}AMR{{ else if eq .theme "food" }}Food{{ else if eq .theme "environment" }}Environment{{ else if eq .theme "clinical" }}Clinical{{ else if eq .theme "surveillance" }}Surveillance{{ else if eq .theme "biosecurity" }}Biosecurity{{ end }}</span>
+        <div class="proj-completed-content">
+          <strong>{{ with .shortname }}{{ . }}: {{ end }}{{ .title }}</strong>
+          <span class="proj-completed-meta">{{ .funder }} · {{ .value }}</span>
+        </div>
+        <span class="proj-role {{ if eq .role "PI" }}role-pi{{ else }}role-coi{{ end }}">{{ .role }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>
+{{ end }}

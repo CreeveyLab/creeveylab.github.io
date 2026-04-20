@@ -18,16 +18,8 @@ themes:
         description: "Applying machine learning and large-scale microbiomics to develop intelligent solutions for sustainable food production."
       - title: "Livestock Production Optimisation"
         description: "Computational approaches to improve animal health, productivity, and reduce environmental footprint across farming systems."
-
-  - icon: "🔬"
-    title: "Clinical Microbiomics & Precision Medicine"
-    description: "Applying machine learning to microbiome data to enhance early diagnosis and treatment of infectious diseases."
-    tags: ["Machine Learning", "Diagnostics", "Pathogens", "Clinical"]
-    subtopics:
-      - title: "Machine Learning for Disease Diagnosis"
-        description: "Leveraging large-scale microbiome datasets and deep learning to improve early and accurate diagnosis of infectious diseases."
-      - title: "Pathogen Detection & Safety"
-        description: "Developing computational tools for pathogen identification and safety assessment in clinical and forensic contexts."
+      - title: "Rumen Microbiome"
+        description: "Characterising the complex microbial communities of the rumen to understand their role in feed efficiency, animal health, and methane emissions. Using tools such as CowPI and the HoloRuminant framework to integrate metataxonomic and metagenomic data."
 
   - icon: "🌊"
     title: "Environmental Microbiology & Biotechnology"
@@ -38,6 +30,16 @@ themes:
         description: "Harnessing bacteriophages for sustainable environmental biotechnology and novel therapeutic applications against drug-resistant pathogens."
       - title: "Methanogen Biology & Climate Change"
         description: "Investigating methane-producing microorganisms to understand and mitigate greenhouse gas emissions from agriculture and the environment."
+
+  - icon: "🌳"
+    title: "Phylogenomics"
+    description: "Reconstructing evolutionary histories and inferring relationships across the tree of life using large-scale genomic datasets and novel computational approaches."
+    tags: ["Phylogenetics", "Comparative Genomics", "Evolution", "Supertrees"]
+    subtopics:
+      - title: "Supertree & Supermatrix Methods"
+        description: "Developing and applying methods for combining partially overlapping phylogenetic datasets, including supertree construction and supermatrix concatenation, implemented in tools such as Clann and CatSequences."
+      - title: "Phylogenomic Inference & Adaptive Evolution"
+        description: "Large-scale inference of evolutionary relationships and detection of adaptive evolution across protein-coding genes, using methods implemented in Crann, Clan Check, and Machete."
 
   - icon: "🧪"
     title: "Methodological Development"
