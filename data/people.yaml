@@ -56,3 +56,28 @@ phd_students:
     initials: "JW"
     bio: "Researching ruminant microbiomes as part of the HoloRuminant project. Developing tools (CowPI) to integrate and synergise metataxonomic and metagenomic data, linking microbiome structure to phenotypes."
     email: "jwilkins02@qub.ac.uk"
+
+  - name: "James Barnard"
+    title: "PhD Student (SUSTAIN DTP)"
+    initials: "JB"
+    bio: "PhD researcher in the Creevey Lab. Research project details to be added."
+    email: ""
+
+  - name: "Jordan Young"
+    title: "PhD Student (Co-Centre for Sustainable Food Systems)"
+    initials: "JY"
+    bio: "PhD researcher in the Creevey Lab. Research project details to be added."
+    email: ""
+
+  - name: "Fatemeh Rajaei Nesheli"
+    title: "PhD Student (NILAB DTP)"
+    initials: "FR"
+    bio: "PhD researcher in the Creevey Lab. Research project details to be added."
+    email: ""
+
+msc_students:
+  - name: "Katie Magill"
+    title: "MSci Student"
+    initials: "KM"
+    bio: "MSci student in the Creevey Lab. Project details to be added."
+    email: ""

@@ -346,6 +346,10 @@ a:hover { color: var(--teal-light); }
 }
 .team-link:hover { background: var(--navy); color: var(--white); }
 
+/* Group photo */
+.group-photo { max-width: 900px; margin: 0 auto 0.25rem; padding: 0 1.5rem; }
+.group-photo img { width: 100%; border-radius: var(--radius); box-shadow: 0 4px 20px rgba(0,0,0,0.12); display: block; }
+
 /* Join Us box */
 .join-box {
   background: var(--off-white); border-radius: var(--radius);

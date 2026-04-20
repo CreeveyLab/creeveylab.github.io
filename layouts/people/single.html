@@ -4,6 +4,10 @@
   <p>The researchers driving discovery at the Creevey Lab</p>
 </div>
 
+<div class="group-photo">
+  <img src="/images/lab-group.png" alt="The Creevey Lab team">
+</div>
+
 <section class="section">
   <div class="container">
 
@@ -61,6 +65,24 @@
       </div>
       {{ end }}
     </div>
+
+    <!-- MSci Students -->
+    {{ with hugo.Data.people.msc_students }}
+    <div class="team-section-label">MSci Students</div>
+    <div class="team-grid" style="margin-bottom: 3.5rem;">
+      {{ range . }}
+      <div class="team-card">
+        <div class="team-avatar">{{ .initials }}</div>
+        <h3>{{ .name }}</h3>
+        <div class="role">{{ .title }}</div>
+        <p>{{ .bio }}</p>
+        <div class="team-links">
+          {{ with .email }}<a href="mailto:{{ . }}" class="team-link" title="Email">✉</a>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
 
     <!-- Join Us -->
     <div class="join-box">
