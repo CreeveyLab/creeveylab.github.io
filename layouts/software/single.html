@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Software</h1>
+  <p>Open-source bioinformatics tools developed by the Creevey Lab</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-desc">We are committed to open science. All tools are freely available and published with peer-reviewed methodology. If you use any of our software, please cite the relevant publication.</p>
+    </div>
+    <div class="software-grid">
+      {{ range hugo.Data.software.tools }}
+      <div class="software-card">
+        <h3>{{ .name }}</h3>
+        <p>{{ .description }}</p>
+        <div class="software-links">
+          {{ with .github }}<a href="{{ . }}" class="software-link" target="_blank" rel="noopener">↗ GitHub</a>{{ end }}
+          {{ with .website }}<a href="{{ . }}" class="software-link" target="_blank" rel="noopener">↗ Website</a>{{ end }}
+          {{ with .doi }}<a href="{{ . }}" class="software-link" target="_blank" rel="noopener">📄 DOI</a>{{ end }}
+          {{ with .citation_url }}<a href="{{ . }}" class="software-link" target="_blank" rel="noopener">📄 Cite</a>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

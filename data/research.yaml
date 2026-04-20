@@ -1,0 +1,50 @@
+themes:
+  - icon: "🧬"
+    title: "Antimicrobial Resistance & One Health"
+    description: "Understanding how AMR develops and spreads across human, animal, and environmental microbiomes using computational and phylogenetic approaches."
+    tags: ["AMR", "Phylogenetics", "One Health", "Metagenomics"]
+    subtopics:
+      - title: "Multi-Drug Resistance Evolution & Transmission"
+        description: "Tracking how resistance develops and spreads across the human-animal-environment interface using whole-genome sequencing and phylogenomics."
+      - title: "Microbiome Responses to Antimicrobial Interventions"
+        description: "Investigating the intended and unintended consequences of antimicrobial policies on microbial communities."
+
+  - icon: "🌱"
+    title: "Sustainable Food Systems & Agriculture"
+    description: "Developing AI solutions and computational approaches to transform agri-food systems for sustainability and resilience."
+    tags: ["AI", "Agriculture", "Livestock", "Food Security"]
+    subtopics:
+      - title: "AI-Driven Agricultural Innovation"
+        description: "Applying machine learning and large-scale microbiomics to develop intelligent solutions for sustainable food production."
+      - title: "Livestock Production Optimisation"
+        description: "Computational approaches to improve animal health, productivity, and reduce environmental footprint across farming systems."
+
+  - icon: "🔬"
+    title: "Clinical Microbiomics & Precision Medicine"
+    description: "Applying machine learning to microbiome data to enhance early diagnosis and treatment of infectious diseases."
+    tags: ["Machine Learning", "Diagnostics", "Pathogens", "Clinical"]
+    subtopics:
+      - title: "Machine Learning for Disease Diagnosis"
+        description: "Leveraging large-scale microbiome datasets and deep learning to improve early and accurate diagnosis of infectious diseases."
+      - title: "Pathogen Detection & Safety"
+        description: "Developing computational tools for pathogen identification and safety assessment in clinical and forensic contexts."
+
+  - icon: "🌊"
+    title: "Environmental Microbiology & Biotechnology"
+    description: "Exploring bacteriophage applications and methanogen biology to address environmental challenges and climate change."
+    tags: ["Phage Therapy", "Metagenomics", "Climate", "Methanogens"]
+    subtopics:
+      - title: "Phage Therapy & Environmental Management"
+        description: "Harnessing bacteriophages for sustainable environmental biotechnology and novel therapeutic applications against drug-resistant pathogens."
+      - title: "Methanogen Biology & Climate Change"
+        description: "Investigating methane-producing microorganisms to understand and mitigate greenhouse gas emissions from agriculture and the environment."
+
+  - icon: "🧪"
+    title: "Methodological Development"
+    description: "Creating novel bioinformatics tools, pipelines, and multi-omics integration approaches for microbiome and genomics research."
+    tags: ["Bioinformatics", "Tools", "Multi-Omics", "Pipelines"]
+    subtopics:
+      - title: "Computational Tool Development"
+        description: "Building open-source bioinformatics software for phylogenetic analysis, metagenomics pipelines, machine learning frameworks, and comparative genomics."
+      - title: "Multi-Omics Integration"
+        description: "Developing approaches to integrate metataxonomic, metagenomic, proteomic, and genomic data for comprehensive systems biology insights."

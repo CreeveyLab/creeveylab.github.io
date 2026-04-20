@@ -1,0 +1,29 @@
+baseURL = "https://creeveylab.org/"
+languageCode = "en-us"
+title = "Creevey Lab"
+
+[params]
+  description = "Computational biology research at the Institute for Global Food Security, Queen's University Belfast"
+  pi = "Prof. Chris Creevey"
+  institution = "Queen's University Belfast"
+  institute = "Institute for Global Food Security"
+
+disableKinds = ["taxonomy", "term"]
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 1
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 2
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

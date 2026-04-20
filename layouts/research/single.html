@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Research Themes</h1>
+  <p>Exploring the intersection of computation, microbiology, and global health challenges</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    {{ range hugo.Data.research.themes }}
+    <div class="research-theme">
+      <div class="research-theme-header">
+        <span class="research-theme-icon">{{ .icon }}</span>
+        <div>
+          <h2>{{ .title }}</h2>
+          <p>{{ .description }}</p>
+        </div>
+      </div>
+      <div class="research-grid">
+        {{ range .subtopics }}
+        <div class="research-card">
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <div style="background: var(--off-white); border-radius: var(--radius); padding: 2.5rem; text-align: center; border: 1px solid var(--grey-200); margin-top: 2rem;">
+      <div class="section-label">Collaborations</div>
+      <h2 style="color: var(--navy); font-size: 1.5rem; font-weight: 800; margin: 0.5rem 0 0.75rem;">Interdisciplinary by Design</h2>
+      <p style="color: var(--grey-600); max-width: 600px; margin: 0 auto 1.5rem;">Our research inherently requires collaboration across Computer Science, Microbiology, Clinical Medicine, Agricultural Sciences, and Environmental Engineering. We work within a One Health framework, recognising the interconnectedness of human, animal, and environmental health.</p>
+      <a href="/contact/" class="btn btn-secondary">Get in Touch</a>
+    </div>
+  </div>
+</section>
+{{ end }}

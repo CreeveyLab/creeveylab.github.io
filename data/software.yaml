@@ -1,0 +1,73 @@
+tools:
+  - name: "Amply"
+    description: "A computational pipeline for identifying novel Antimicrobial Peptides (AMPs) from any form of digital biological data, for synthesis and screening against multi-drug resistant bacteria and fungi."
+    website: "https://amplydiscovery.com/"
+
+  - name: "Apply Decision Tree"
+    description: "A tool for easy implementation of j48 decision trees from WEKA on novel datasets, developed to streamline machine learning workflows in bioinformatics."
+    github: "https://github.com/ChrisCreevey/apply_decision_tree"
+
+  - name: "AQUA"
+    description: "Automated Quality Improvement for multiple sequence alignments. Automatically identifies the most reliable alignment for a given protein family using MUSCLE, MAFFT, RASCAL, and NORMD."
+    website: "http://www.bork.embl.de/Docu/AQUA/"
+    citation_url: "https://academic.oup.com/bioinformatics/article/26/2/263/210254"
+
+  - name: "CatSequences"
+    description: "A tool for concatenating multiple FASTA alignments for supermatrix phylogenetic analyses, part of a general phylogenomics software suite."
+    github: "https://github.com/ChrisCreevey/catsequences"
+    doi: "https://zenodo.org/record/4409153"
+
+  - name: "Clann"
+    description: "Construction of supertrees and exploration of phylogenomic information from partially overlapping datasets. Implements optimal phylogenetic supertree methods."
+    website: "http://chriscreevey.github.io/clann/"
+    citation_url: "https://academic.oup.com/bioinformatics/article/21/3/390/238167"
+
+  - name: "Clan Check"
+    description: "Analyses single-copy phylogenetic trees to assess compatibility with user-defined groupings (clans) in unrooted trees — ideal for large-scale phylogenomic analyses."
+    github: "https://github.com/ChrisCreevey/clan_check"
+
+  - name: "Concatabominations"
+    description: "Identifies unstable taxa in morphological phylogenetics using a heuristic extension to Safe Taxonomic Reduction, with Cytoscape-based visualisation of taxonomic equivalents."
+
+  - name: "CowPI"
+    description: "A rumen microbiome-focused version of the PICRUSt functional inference software, built using 16S rDNA profiles from the Global Rumen Census and ~500 fully sequenced microbial genomes."
+    website: "http://www.cowpi.org/"
+    citation_url: "https://www.frontiersin.org/articles/10.3389/fmicb.2018.01095/full"
+
+  - name: "Crann"
+    description: "Detects adaptive evolution in protein-coding genes. Implements methods for measuring synonymous/non-synonymous distances and detecting directional and non-directional positive selection."
+    github: "https://github.com/ChrisCreevey/crann"
+    citation_url: "https://academic.oup.com/bioinformatics/article/19/13/1726/225099"
+
+  - name: "Hansel & Gretel"
+    description: "Twin tools for identifying cryptic haplotypes from metagenomic datasets. Hansel implements a graph-inspired data structure; Gretel recovers haplotypes from metagenomes."
+    github: "https://github.com/SamStudio8/gretel"
+    citation_url: "https://academic.oup.com/bioinformatics/article/37/10/1360/5988481"
+
+  - name: "Machete"
+    description: "Automated likelihood decay indices and maximum likelihood phylogeny construction with PAUP*. Takes nexus-formatted aligned sequences and optimises ML trees and bootstrap analyses."
+    github: "https://github.com/ChrisCreevey/machete"
+
+  - name: "MGKit"
+    description: "A metagenomic framework for the study of microbial communities, providing fully automated analysis from NGS reads to assembly, gene prediction, taxonomic identification, and SNP diversity estimation."
+    website: "http://pythonhosted.org//mgkit/"
+    citation_url: "https://www.nature.com/articles/ismej2016172"
+
+  - name: "SNPdat"
+    description: "Software for annotation of novel and known single nucleotide polymorphisms (SNPs), designed for organisms with limited SNP annotation or those not supported by other tools."
+    github: "https://github.com/agdoran/snpdat"
+    citation_url: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-45"
+
+  - name: "Spherical"
+    description: "An iterative approach to assembling large metagenomic datasets. Produces more complete assemblies from deep-sequenced data while using a fraction of the RAM otherwise required."
+    github: "https://github.com/thh32/Spherical"
+    citation_url: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2028-2"
+
+  - name: "StORF-Reporter"
+    description: "A toolkit that takes an annotated genome and returns missed CDS genes from unannotated regions, outputting results in PROKKA-formatted GFF files."
+    github: "https://github.com/NickJD/StORF-Reporter"
+    citation_url: "https://www.biorxiv.org/content/10.1101/2022.03.31.486628v2"
+
+  - name: "Treedist"
+    description: "Rapid calculation of pathlength distances between taxa on phylogenetic trees. Includes treedist_pair (distance between two branches) and treedist_all (all terminal branch distances)."
+    github: "https://github.com/ChrisCreevey/treedist"
