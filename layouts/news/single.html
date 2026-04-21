@@ -12,6 +12,13 @@
   <div class="container">
     <div class="news-single-body">
       {{ .Content }}
+      {{ if or .Params.repository .Params.documentation .Params.doi }}
+      <div class="news-links">
+        {{ with .Params.repository }}<a href="{{ . }}" class="news-ext-link" target="_blank" rel="noopener">↗ Repository</a>{{ end }}
+        {{ with .Params.documentation }}<a href="{{ . }}" class="news-ext-link" target="_blank" rel="noopener">↗ Documentation</a>{{ end }}
+        {{ with .Params.doi }}<a href="{{ . }}" class="news-ext-link" target="_blank" rel="noopener">↗ DOI</a>{{ end }}
+      </div>
+      {{ end }}
       <div style="margin-top: 2rem;">
         <a href="/news/" class="btn btn-secondary">← All News</a>
       </div>
