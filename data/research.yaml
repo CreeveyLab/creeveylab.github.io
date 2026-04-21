@@ -1,5 +1,5 @@
 themes:
-  - icon: "🧬"
+  - icon: "amr"
     title: "Antimicrobial Resistance & One Health"
     description: "Understanding how AMR develops and spreads across human, animal, and environmental microbiomes using computational and phylogenetic approaches."
     tags: ["AMR", "Phylogenetics", "One Health", "Metagenomics"]
@@ -9,7 +9,7 @@ themes:
       - title: "Microbiome Responses to Antimicrobial Interventions"
         description: "Investigating the intended and unintended consequences of antimicrobial policies on microbial communities."
 
-  - icon: "🌱"
+  - icon: "food"
     title: "Sustainable Food Systems & Agriculture"
     description: "Developing AI solutions and computational approaches to transform agri-food systems for sustainability and resilience."
     tags: ["AI", "Agriculture", "Livestock", "Food Security"]
@@ -21,7 +21,7 @@ themes:
       - title: "Rumen Microbiome"
         description: "Characterising the complex microbial communities of the rumen to understand their role in feed efficiency, animal health, and methane emissions. Using tools such as CowPI and the HoloRuminant framework to integrate metataxonomic and metagenomic data."
 
-  - icon: "🌊"
+  - icon: "environment"
     title: "Environmental Microbiology & Biotechnology"
     description: "Exploring bacteriophage applications and methanogen biology to address environmental challenges and climate change."
     tags: ["Phage Therapy", "Metagenomics", "Climate", "Methanogens"]
@@ -31,7 +31,7 @@ themes:
       - title: "Methanogen Biology & Climate Change"
         description: "Investigating methane-producing microorganisms to understand and mitigate greenhouse gas emissions from agriculture and the environment."
 
-  - icon: "🌳"
+  - icon: "phylogenomics"
     title: "Phylogenomics"
     description: "Reconstructing evolutionary histories and inferring relationships across the tree of life using large-scale genomic datasets and novel computational approaches."
     tags: ["Phylogenetics", "Comparative Genomics", "Evolution", "Supertrees"]
@@ -41,7 +41,7 @@ themes:
       - title: "Phylogenomic Inference & Adaptive Evolution"
         description: "Large-scale inference of evolutionary relationships and detection of adaptive evolution across protein-coding genes, using methods implemented in Crann, Clan Check, and Machete."
 
-  - icon: "🧪"
+  - icon: "methods"
     title: "Methodological Development"
     description: "Creating novel bioinformatics tools, pipelines, and multi-omics integration approaches for microbiome and genomics research."
     tags: ["Bioinformatics", "Tools", "Multi-Omics", "Pipelines"]

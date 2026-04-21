@@ -1,0 +1,33 @@
+{{ $icon := . }}
+<svg class="research-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+{{ if eq $icon "amr" }}
+  {{/* Shield with checkmark — protection/resistance */}}
+  <path d="M12 2L4 6v5.5c0 5.2 3.5 10 8 11.5 4.5-1.5 8-6.3 8-11.5V6L12 2z"/>
+  <polyline points="8.5 12 11 14.5 15.5 9.5"/>
+{{ else if eq $icon "food" }}
+  {{/* Seedling — agriculture/food systems */}}
+  <line x1="12" y1="22" x2="12" y2="11"/>
+  <path d="M12 11C12 6 8 3 4 3c0 5 3.5 8.5 8 8"/>
+  <path d="M12 11c0-5 4-8 8-8-0 5-3.5 8.5-8 8"/>
+{{ else if eq $icon "environment" }}
+  {{/* Water drop — environmental microbiology */}}
+  <path d="M12 2.7l-6.3 8.6A7 7 0 1018.3 11.3L12 2.7z"/>
+  <path d="M12 17a3 3 0 01-2.8-2" stroke-width="1.2"/>
+{{ else if eq $icon "phylogenomics" }}
+  {{/* Dendrogram — phylogenomics/tree of life */}}
+  <circle cx="12" cy="4" r="1.5"/>
+  <line x1="12" y1="5.5" x2="12" y2="11"/>
+  <line x1="12" y1="11" x2="6" y2="15"/>
+  <line x1="12" y1="11" x2="18" y2="15"/>
+  <circle cx="6" cy="16.5" r="1.5"/>
+  <circle cx="18" cy="16.5" r="1.5"/>
+  <line x1="6" y1="18" x2="6" y2="20.5"/>
+  <line x1="18" y1="18" x2="18" y2="20.5"/>
+  <line x1="3.5" y1="20.5" x2="8.5" y2="20.5"/>
+  <line x1="15.5" y1="20.5" x2="20.5" y2="20.5"/>
+{{ else if eq $icon "methods" }}
+  {{/* Code brackets — bioinformatics/tool development */}}
+  <polyline points="16 18 22 12 16 6"/>
+  <polyline points="8 6 2 12 8 18"/>
+{{ end }}
+</svg>

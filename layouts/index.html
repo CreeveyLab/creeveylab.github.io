@@ -32,7 +32,7 @@
     <div class="research-grid">
       {{ range hugo.Data.research.themes }}
       <div class="research-card">
-        <span class="research-icon">{{ .icon }}</span>
+        <span class="research-icon">{{ partial "research-icon.html" .icon }}</span>
         <h3>{{ .title }}</h3>
         <p>{{ .description }}</p>
         <div class="tags">
