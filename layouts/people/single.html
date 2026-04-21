@@ -15,7 +15,11 @@
     <div class="team-section-label">Principal Investigator</div>
     {{ with hugo.Data.people.pi }}
     <div class="pi-card">
+      {{ if .photo }}
+      <div class="pi-avatar pi-avatar-photo"><img src="{{ .photo }}" alt="{{ .name }}"></div>
+      {{ else }}
       <div class="pi-avatar">{{ .initials }}</div>
+      {{ end }}
       <div class="pi-info">
         <h2>{{ .name }}</h2>
         <div class="pi-title">{{ .title }}</div>
@@ -23,7 +27,8 @@
         <p>{{ .bio }}</p>
         <div class="pi-links">
           {{ with .email }}<a href="mailto:{{ . }}" class="pi-link">✉ Email</a>{{ end }}
-          {{ with .twitter }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">𝕏 Twitter</a>{{ end }}
+          {{ with .bluesky }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">🦋 Bluesky</a>{{ end }}
+          {{ with .linkedin }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">💼 LinkedIn</a>{{ end }}
           {{ with .scholar }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">🎓 Scholar</a>{{ end }}
           {{ with .orcid }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">🆔 ORCID</a>{{ end }}
         </div>
@@ -36,7 +41,11 @@
     <div class="team-grid" style="margin-bottom: 3.5rem;">
       {{ range hugo.Data.people.postdocs }}
       <div class="team-card">
+        {{ if .photo }}
+        <div class="team-avatar team-avatar-photo"><img src="{{ .photo }}" alt="{{ .name }}"></div>
+        {{ else }}
         <div class="team-avatar">{{ .initials }}</div>
+        {{ end }}
         <h3>{{ .name }}</h3>
         <div class="role">{{ .title }}</div>
         <p>{{ .bio }}</p>
@@ -54,7 +63,11 @@
     <div class="team-grid" style="margin-bottom: 3.5rem;">
       {{ range hugo.Data.people.phd_students }}
       <div class="team-card">
+        {{ if .photo }}
+        <div class="team-avatar team-avatar-photo"><img src="{{ .photo }}" alt="{{ .name }}"></div>
+        {{ else }}
         <div class="team-avatar">{{ .initials }}</div>
+        {{ end }}
         <h3>{{ .name }}</h3>
         <div class="role">{{ .title }}</div>
         <p>{{ .bio }}</p>
@@ -72,7 +85,11 @@
     <div class="team-grid" style="margin-bottom: 3.5rem;">
       {{ range . }}
       <div class="team-card">
+        {{ if .photo }}
+        <div class="team-avatar team-avatar-photo"><img src="{{ .photo }}" alt="{{ .name }}"></div>
+        {{ else }}
         <div class="team-avatar">{{ .initials }}</div>
+        {{ end }}
         <h3>{{ .name }}</h3>
         <div class="role">{{ .title }}</div>
         <p>{{ .bio }}</p>

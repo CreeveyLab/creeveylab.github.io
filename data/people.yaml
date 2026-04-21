@@ -1,22 +1,26 @@
 pi:
   name: "Prof. Chris Creevey"
+  photo: "/images/people/chris-creevey.jpeg"
   title: "Professor of Computational Biology"
   institution: "Institute for Global Food Security, Queen's University Belfast"
   initials: "CC"
   bio: "Professor of Computational Biology at the Institute for Global Food Security, Queen's University Belfast. His main interests are identifying the genomic factors influencing phenotypic changes in organisms from Bacteria to Eukaryotes with a focus on animal microbiomes. He received his Ph.D. in 2002 from the National University of Ireland for his work in the area of phylogenetics and comparative genomics, and has since held positions at NUI Maynooth, EMBL Heidelberg, Teagasc Ireland, and Aberystwyth University."
   email: "chris.creevey@qub.ac.uk"
-  twitter: "https://twitter.com/Hairy_Llama"
+  bluesky: "https://bsky.app/profile/hairyllama.bsky.social"
+  linkedin: "https://www.linkedin.com/in/chris-creevey-4778a242/"
   scholar: "https://scholar.google.com/citations?user=7JkjEd4AAAAJ&hl=en"
   orcid: "https://orcid.org/0000-0001-7183-1555"
 
 postdocs:
   - name: "Dr. Lucy Dillon"
+    photo: "/images/people/lucy-dillon.jpeg"
     title: "Postdoctoral Research Fellow"
     initials: "LD"
     bio: "Postdoctoral researcher in the Creevey Lab. Research interests and further details to be added."
     email: ""
 
   - name: "Dr. Peter Eze"
+    photo: "/images/people/peter-eze.jpeg"
     title: "Postdoctoral Research Fellow"
     initials: "PE"
     bio: "Background in microbiology, biotechnology, and natural products research. Current research focuses on antimicrobial resistance, antimicrobial drug discovery, and phage therapy."
@@ -32,6 +36,7 @@ postdocs:
     scholar: "https://scholar.google.com/citations?user=MKtAelUAAAAJ&hl=en"
 
   - name: "Dr. James Gillespie"
+    photo: "/images/people/james-gillespie.jpeg"
     title: "Postdoctoral Research Fellow"
     initials: "JG"
     bio: "Postdoctoral researcher in the Creevey Lab. Research interests and further details to be added."
@@ -39,12 +44,14 @@ postdocs:
 
 phd_students:
   - name: "Stephen Courtney"
+    photo: "/images/people/stephen-courtney.jpeg"
     title: "PhD Student"
     initials: "SC"
     bio: "PhD researcher in the Creevey Lab. Research project details to be added."
     email: ""
 
   - name: "Emmet Campbell"
+    photo: "/images/people/emmet-campbell.jpeg"
     title: "PhD Student"
     initials: "EC"
     bio: "Studying Syn-Bio bacteriophage therapies to combat Streptococcus suis infections in pigs. Part of the Phage-SUAS project between Queen's University Belfast, University College Cork, Teagasc, and University of Wisconsin-Madison."
@@ -52,24 +59,28 @@ phd_students:
     twitter: "https://twitter.com/the_phagemage"
 
   - name: "John-Paul Wilkins"
+    photo: "/images/people/john-paul-wilkins.jpeg"
     title: "PhD Student"
     initials: "JW"
     bio: "Researching ruminant microbiomes as part of the HoloRuminant project. Developing tools (CowPI) to integrate and synergise metataxonomic and metagenomic data, linking microbiome structure to phenotypes."
     email: "jwilkins02@qub.ac.uk"
 
   - name: "James Barnard"
+    photo: "/images/people/james-barnard.jpeg"
     title: "PhD Student (SUSTAIN DTP)"
     initials: "JB"
     bio: "PhD researcher in the Creevey Lab. Research project details to be added."
     email: ""
 
   - name: "Jordan Young"
+    photo: "/images/people/jordan-young.jpeg"
     title: "PhD Student (Co-Centre for Sustainable Food Systems)"
     initials: "JY"
     bio: "PhD researcher in the Creevey Lab. Research project details to be added."
     email: ""
 
   - name: "Fatemeh Rajaei Nesheli"
+    photo: "/images/people/Fatemeh-Rajaei-Nesheli.jpeg"
     title: "PhD Student (NILAB DTP)"
     initials: "FR"
     bio: "PhD researcher in the Creevey Lab. Research project details to be added."
