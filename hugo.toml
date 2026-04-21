@@ -12,6 +12,11 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
+    name = "Wiki"
+    url = "https://wiki.creeveylab.org"
+    weight = 0
+
+  [[menu.main]]
     name = "Research"
     url = "/research/"
     weight = 1
