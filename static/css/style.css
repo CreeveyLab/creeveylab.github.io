@@ -376,6 +376,13 @@ a:hover { color: var(--teal-light); }
 .group-photo { max-width: 900px; margin: 0 auto 0.25rem; padding: 0 1.5rem; }
 .group-photo img { width: 100%; border-radius: var(--radius); box-shadow: 0 4px 20px rgba(0,0,0,0.12); display: block; }
 
+/* Join simple (homepage) */
+.join-simple { max-width: 600px; margin: 0 auto; text-align: center; }
+.join-simple h2 { color: var(--navy); font-size: 1.4rem; margin-bottom: 0.75rem; }
+.join-simple p { color: var(--grey-600); line-height: 1.8; }
+.join-simple a { color: var(--teal); font-weight: 600; text-decoration: none; }
+.join-simple a:hover { text-decoration: underline; }
+
 /* Join Us box */
 .join-box {
   background: var(--off-white); border-radius: var(--radius);
