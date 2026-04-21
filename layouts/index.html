@@ -53,27 +53,10 @@
     <div class="section-header">
       <div class="section-label">The Lab</div>
       <h2 class="section-title">Our Team</h2>
-      <p class="section-desc">An interdisciplinary team of computational biologists, bioinformaticians, and microbiologists working across health, agriculture, and the environment.</p>
+      <p class="section-desc">An interdisciplinary group of computational biologists, bioinformaticians, and microbiologists based at the Institute for Global Food Security, Queen's University Belfast.</p>
     </div>
-    {{ with hugo.Data.people.pi }}
-    <div class="pi-card">
-      <div class="pi-avatar">{{ .initials }}</div>
-      <div class="pi-info">
-        <h2>{{ .name }}</h2>
-        <div class="pi-title">{{ .title }}</div>
-        <div class="pi-institution">{{ .institution }}</div>
-        <p>{{ .bio }}</p>
-        <div class="pi-links">
-          {{ with .email }}<a href="mailto:{{ . }}" class="pi-link">✉ Email</a>{{ end }}
-          {{ with .twitter }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">𝕏 Twitter</a>{{ end }}
-          {{ with .scholar }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">🎓 Scholar</a>{{ end }}
-          {{ with .orcid }}<a href="{{ . }}" class="pi-link" target="_blank" rel="noopener">🆔 ORCID</a>{{ end }}
-        </div>
-      </div>
-    </div>
-    {{ end }}
     <div class="section-cta">
-      <a href="/people/" class="btn btn-secondary">Meet the Full Team</a>
+      <a href="/people/" class="btn btn-secondary">Meet the Team</a>
     </div>
   </div>
 </section>
