@@ -7,27 +7,23 @@
   </div>
   <div class="hero-inner">
     <div class="hero-tag">Institute for Global Food Security · Queen's University Belfast</div>
-    <h1>Understanding microbial life, <em>one genome at a time</em></h1>
+    <h1 class="hero-labname">Welcome to the Creevey<span style="color: var(--teal-light)">Lab</span></h1>
     <p class="hero-desc">
-      Harnessing genomics and bioinformatics to understand the microbial world — driving solutions in antimicrobial resistance, sustainable agriculture, and global food security.
+      We are a computational biology group working on microbial communities — developing bioinformatics tools to explore metagenomic data, AMR, ruminant biology, food systems, and environmental change.
     </p>
     <div class="hero-actions">
       <a href="/research/" class="btn btn-primary">Explore Our Research</a>
       <a href="/people/" class="btn btn-outline">Meet the Team</a>
     </div>
-    <p class="hero-philosophy">
-      We are a curiosity-driven research group at Queen's University Belfast. Our work starts with a question — usually about why microbes do what they do — and builds the computational tools needed to answer it.
-    </p>
   </div>
 </section>
 
-<!-- RESEARCH THEMES -->
-<section class="section">
+<!-- RESEARCH AREAS -->
+<section class="section section-tight">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Research</div>
-      <h2 class="section-title">Research Themes</h2>
-      <p class="section-desc">Our research spans five interconnected areas, leveraging microbiome data, genomics, and machine learning to address critical global challenges.</p>
+      <h2 class="section-title">Research Areas</h2>
+      <p class="section-desc">Five areas, all asking how microbes work and why it matters.</p>
     </div>
     <div class="research-grid">
       {{ range hugo.Data.research.themes }}
@@ -48,10 +44,9 @@
 </section>
 
 <!-- TEAM -->
-<section class="section section-alt">
+<section class="section section-alt section-tight">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">The Lab</div>
       <h2 class="section-title">Our Team</h2>
       <p class="section-desc">An interdisciplinary group of computational biologists, bioinformaticians, and microbiologists based at the Institute for Global Food Security, Queen's University Belfast.</p>
     </div>
@@ -62,12 +57,11 @@
 </section>
 
 <!-- SOFTWARE -->
-<section class="section">
+<section class="section section-tight">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Software</div>
-      <h2 class="section-title">Software Tools</h2>
-      <p class="section-desc">We develop and maintain open-source bioinformatics tools used by researchers worldwide.</p>
+      <h2 class="section-title">Software</h2>
+      <p class="section-desc">We write open-source bioinformatics tools — here's a sample.</p>
     </div>
     <div class="software-grid">
       {{ range first 6 hugo.Data.software.tools }}
@@ -82,16 +76,15 @@
       {{ end }}
     </div>
     <div class="section-cta">
-      <a href="/software/" class="btn btn-secondary">View All {{ len hugo.Data.software.tools }} Tools</a>
+      <a href="/software/" class="btn btn-secondary">View All Tools</a>
     </div>
   </div>
 </section>
 
 <!-- NEWS -->
-<section class="section">
+<section class="section section-tight">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Latest</div>
       <h2 class="section-title">News</h2>
     </div>
     <div class="news-list news-list-home">
@@ -115,7 +108,7 @@
 </section>
 
 <!-- JOIN -->
-<section class="section section-alt">
+<section class="section section-alt section-tight">
   <div class="container">
     <div class="join-simple">
       <h2>Interested in joining us?</h2>
