@@ -119,6 +119,33 @@
   </div>
 </section>
 
+<!-- NEWS -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Latest</div>
+      <h2 class="section-title">News</h2>
+    </div>
+    <div class="news-list news-list-home">
+      {{ range first 3 (where site.RegularPages "Section" "news") }}
+      <article class="news-item">
+        <div class="news-meta">
+          <time class="news-date">{{ .Date.Format "2 January 2006" }}</time>
+          {{ with .Params.type_tag }}<span class="news-tag news-tag-{{ . }}">{{ . }}</span>{{ end }}
+        </div>
+        <h3 class="news-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="news-summary">{{ .Summary }}</div>
+      </article>
+      {{ else }}
+      <p>No news yet — check back soon.</p>
+      {{ end }}
+    </div>
+    <div class="section-cta">
+      <a href="/news/" class="btn btn-secondary">All News</a>
+    </div>
+  </div>
+</section>
+
 <!-- JOIN -->
 <section class="section section-alt">
   <div class="container">

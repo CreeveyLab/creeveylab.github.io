@@ -2,51 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creevey Lab</title>
-    <link>http://localhost:61690/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Creevey Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:61690/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coping with ineffective overlap in multilocus phylogenetics</title>
+      <link>http://localhost:1313/news/serra2026-multilocus-phylogenetics/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/serra2026-multilocus-phylogenetics/</guid>
+      <description>&lt;p&gt;This paper addresses a fundamental challenge in multilocus phylogenetics — how to handle cases where different genes cover different subsets of taxa, leading to ineffective overlap. Published in &lt;em&gt;Systematic Biology&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phenotypic and genomic analysis of pathogenic Enterobacteriaceae from leafy vegetables</title>
+      <link>http://localhost:1313/news/qi2025-enterobacteriaceae-resistance/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/qi2025-enterobacteriaceae-resistance/</guid>
+      <description>&lt;p&gt;A genomic study of pathogenic Enterobacteriaceae isolated from leafy vegetables, examining antibiotic resistance profiles and the public health implications of resistance gene transfer through the food supply. Published in &lt;em&gt;Environment International&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Combining individual and wastewater whole genome sequencing improves SARS-CoV-2 surveillance</title>
+      <link>http://localhost:1313/news/troendle2025-wastewater-sequencing/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/troendle2025-wastewater-sequencing/</guid>
+      <description>&lt;p&gt;Lab member John-Paul Wilkins contributed to this study demonstrating that combining individual clinical and wastewater whole genome sequencing significantly improves SARS-CoV-2 surveillance. Published in &lt;em&gt;Water Research&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unexplored microbial diversity from 2,500 food metagenomes and links with the human microbiome</title>
+      <link>http://localhost:1313/news/carlino2024-food-metagenomes/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/carlino2024-food-metagenomes/</guid>
+      <description>&lt;p&gt;A landmark large-scale study cataloguing previously unexplored microbial diversity across 2,500 food metagenomes and revealing links to the human gut microbiome. Published in &lt;em&gt;Cell&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sustainable use and conservation of microorganisms of relevance to ruminant digestion</title>
+      <link>http://localhost:1313/news/huws2024-ruminant-microorganisms/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/huws2024-ruminant-microorganisms/</guid>
+      <description>&lt;p&gt;Chris Creevey co-authored this FAO report on the sustainable use and conservation of rumen microorganisms, highlighting the importance of microbial diversity for efficient and sustainable ruminant digestion. Published by the &lt;em&gt;Food &amp;amp; Agriculture Organisation of the United Nations&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Insights into plant interactions and the biogeochemical role of Acidobacteriota</title>
+      <link>http://localhost:1313/news/goncalves2024-acidobacteriota/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/goncalves2024-acidobacteriota/</guid>
+      <description>&lt;p&gt;A collaborative study exploring the plant interactions and biogeochemical role of Acidobacteriota — one of the most widespread but poorly understood bacterial phyla in the soil microbiome. Published in &lt;em&gt;Soil Biology and Biochemistry&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accessory genes define species-specific routes to antibiotic resistance</title>
+      <link>http://localhost:1313/news/dillon2024-accessory-genes/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/dillon2024-accessory-genes/</guid>
+      <description>&lt;p&gt;Lab members Lucy Dillon, Nick Dimonaco, and Chris Creevey show that accessory genes — those present in some but not all strains of a species — play a defining role in the routes bacteria take towards antibiotic resistance. Published in &lt;em&gt;Life Science Alliance&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:61690/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>People</title>
-      <link>http://localhost:61690/people/</link>
+      <link>http://localhost:1313/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/people/</guid>
+      <guid>http://localhost:1313/people/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:61690/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:61690/publications/</link>
+      <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/publications/</guid>
+      <guid>http://localhost:1313/publications/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:61690/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/research/</guid>
+      <guid>http://localhost:1313/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:61690/software/</link>
+      <link>http://localhost:1313/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61690/software/</guid>
+      <guid>http://localhost:1313/software/</guid>
       <description></description>
     </item>
   </channel>

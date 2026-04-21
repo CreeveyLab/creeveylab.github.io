@@ -2,22 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61690/categories/</loc>
+    <loc>http://localhost:1313/news/serra2026-multilocus-phylogenetics/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/contact/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/</loc>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/people/</loc>
+    <loc>http://localhost:1313/news/qi2025-enterobacteriaceae-resistance/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/projects/</loc>
+    <loc>http://localhost:1313/news/troendle2025-wastewater-sequencing/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/publications/</loc>
+    <loc>http://localhost:1313/news/carlino2024-food-metagenomes/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/research/</loc>
+    <loc>http://localhost:1313/news/huws2024-ruminant-microorganisms/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/software/</loc>
+    <loc>http://localhost:1313/news/goncalves2024-acidobacteriota/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61690/tags/</loc>
+    <loc>http://localhost:1313/news/dillon2024-accessory-genes/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/people/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/research/</loc>
+  </url><url>
+    <loc>http://localhost:1313/software/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

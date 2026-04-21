@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>News</h1>
+  <p>Latest updates from the Creevey Lab</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="news-list">
+      {{ range .Pages }}
+      <article class="news-item">
+        <div class="news-meta">
+          <time class="news-date">{{ .Date.Format "2 January 2006" }}</time>
+          {{ with .Params.type_tag }}<span class="news-tag news-tag-{{ . }}">{{ . }}</span>{{ end }}
+        </div>
+        <h2 class="news-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ with .Params.author }}<div class="news-author">{{ . }}</div>{{ end }}
+        <div class="news-summary">{{ .Summary }}</div>
+        <a href="{{ .Permalink }}" class="news-read-more">Read more →</a>
+      </article>
+      {{ else }}
+      <p>No news yet — check back soon.</p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
