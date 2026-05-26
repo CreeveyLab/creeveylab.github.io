@@ -1,8 +1,8 @@
 themes:
   - icon: "amr"
     title: "Antimicrobial Resistance & One Health"
-    description: "Understanding how AMR develops and spreads across human, animal, and environmental microbiomes using computational and phylogenetic approaches."
-    tags: ["AMR", "Phylogenetics", "One Health", "Metagenomics"]
+    description: "Understanding how AMR develops and spreads across human, animal, and environmental microbiomes using machine learning, computational, and phylogenetic approaches."
+    tags: ["AMR", "Machine Learning", "One Health", "Metagenomics"]
     subtopics:
       - title: "Multi-Drug Resistance Evolution & Transmission"
         description: "Tracking how resistance develops and spreads across the human-animal-environment interface using whole-genome sequencing and phylogenomics."
@@ -43,8 +43,8 @@ themes:
 
   - icon: "methods"
     title: "Methodological Development"
-    description: "Creating novel bioinformatics tools, pipelines, and multi-omics integration approaches for microbiome and genomics research."
-    tags: ["Bioinformatics", "Tools", "Multi-Omics", "Pipelines"]
+    description: "Creating novel machine learning frameworks, bioinformatics tools, pipelines, and multi-omics integration approaches for microbiome and genomics research."
+    tags: ["Machine Learning", "Bioinformatics", "Multi-Omics", "Pipelines"]
     subtopics:
       - title: "Computational Tool Development"
         description: "Building open-source bioinformatics software for phylogenetic analysis, metagenomics pipelines, machine learning frameworks, and comparative genomics."
