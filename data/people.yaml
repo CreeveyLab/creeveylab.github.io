@@ -34,20 +34,20 @@ postdocs:
     bio: "PhD in Machine Learning, with experience ranging from reinforcement learning to transformer-based models. Current research focuses on developing machine learning tools for the Co-Centre for Sustainable Food Systems, with additional interests in machine learning for genomics."
     email: "j.gillespie@qub.ac.uk"
 
-  - name: "Dr. Emmet Campbell"
-    photo: "/images/people/emmet-campbell.jpeg"
-    title: "Postdoctoral Research Fellow"
-    initials: "EC"
-    bio: "Postdoctoral researcher working on a DSTL-funded project in microbial genomics."
-    email: "ecampbell50@qub.ac.uk"
-    twitter: "https://twitter.com/the_phagemage"
-
 phd_students:
   - name: "Katie Magill"
     title: "PhD Student (FoodBiosystems)"
     initials: "KM"
     bio: "PhD student in the Creevey Lab, funded by FoodBiosystems. Project details to be added."
     email: ""
+
+  - name: "Emmet Campbell"
+    photo: "/images/people/emmet-campbell.jpeg"
+    title: "PhD Student"
+    initials: "EC"
+    bio: "PhD student working on a DSTL-funded project in microbial genomics."
+    email: "ecampbell50@qub.ac.uk"
+    twitter: "https://twitter.com/the_phagemage"
 
   - name: "John-Paul Wilkins"
     photo: "/images/people/john-paul-wilkins.jpeg"
