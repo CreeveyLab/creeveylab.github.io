@@ -89,16 +89,6 @@ active:
     theme: "clinical"
     description: "Early detection tools for urinary tract infection and sepsis in catheter patients."
 
-  - title: "AI-Driven Pangenomics in Bacteria"
-    shortname: "Biosecurity AI"
-    role: "PI"
-    funder: "Defence, Sciences & Technology Laboratory"
-    funder_short: "DSTL/MOD"
-    start: "2025-07-01"
-    end: "2026-12-31"
-    theme: "biosecurity"
-    description: "Developing AI tools to detect deliberately introduced or engineered genomic elements in bacterial genomes."
-
   - title: "Unravelling the aetiology of Stunting in UK Broiler Flocks through novel microdissection and genomic sequencing"
     shortname: "Broiler Stunting"
     role: "CoI"

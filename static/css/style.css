@@ -532,7 +532,10 @@ a:hover { color: var(--teal-light); }
 .funder-card p { font-size: 0.85rem; color: var(--grey-600); line-height: 1.75; margin-top: 0.75rem; }
 .funder-logo {
   max-width: 100%; max-height: 60px; width: auto; height: auto;
-  margin-bottom: 1rem; background: var(--navy-dark); border-radius: 6px; padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+.funder-logo-dark {
+  background: var(--navy-dark); border-radius: 6px; padding: 0.5rem 0.75rem;
 }
 
 /* ============================================================

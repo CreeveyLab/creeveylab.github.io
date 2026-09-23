@@ -14,7 +14,7 @@
       {{ range hugo.Data.funding.funders }}
       {{ $funder := . }}
       <div class="funder-card">
-        {{ with .logo }}<img class="funder-logo" src="{{ . }}" alt="{{ $funder.short }}">{{ end }}
+        {{ with .logo }}<img class="funder-logo{{ if $funder.logo_dark }} funder-logo-dark{{ end }}" src="{{ . }}" alt="{{ $funder.short }}">{{ end }}
         <h3>{{ .name }}</h3>
         {{ with .statement }}<p>{{ . }}</p>{{ end }}
       </div>
