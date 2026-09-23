@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Funding</h1>
+  <p>Acknowledging the funders who make our research possible</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label">Our Funders</p>
+      <p class="section-desc">The Creevey Lab's research is supported by a range of public, charitable, industry, and international funders. See <a href="/projects/">Projects</a> for details of individual grants.</p>
+    </div>
+    <div class="funders-grid">
+      {{ range hugo.Data.funding.funders }}
+      {{ $funder := . }}
+      <div class="funder-card">
+        {{ with .logo }}<img class="funder-logo" src="{{ . }}" alt="{{ $funder.short }}">{{ end }}
+        <h3>{{ .name }}</h3>
+        {{ with .statement }}<p>{{ . }}</p>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,4 +1,14 @@
 active:
+  - title: "Doctoral Training in Ruminant Microbiome Science: Developing Evidence-Based Interventions for Sustainable Food Production and Climate Change Mitigation"
+    shortname: "Rumen-Innovate"
+    role: "PI"
+    funder: "European Commission — Horizon Europe (Marie Skłodowska-Curie Actions)"
+    funder_short: "Horizon Europe MSCA"
+    start: "2027-03-01"
+    end: "2031-02-28"
+    theme: "environment"
+    description: "Coordinating a €4.8 million Marie Skłodowska-Curie Actions Doctoral Network (Grant Agreement 101311612) training the next generation of ruminant microbiome scientists, with 11 institutions and 19 industry and research partners developing evidence-based interventions for sustainable food production and methane emission reduction."
+
   - title: "SUSTAIN: UKRI AI Centre for Doctoral Training in Sustainable Agri-Food Systems"
     shortname: "SUSTAIN CDT"
     role: "CoI"

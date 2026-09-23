@@ -516,6 +516,26 @@ a:hover { color: var(--teal-light); }
 }
 
 /* ============================================================
+   FUNDING
+   ============================================================ */
+.funders-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem; max-width: var(--max-width); margin: 0 auto; align-items: start;
+}
+.funder-card {
+  background: var(--white); border-radius: var(--radius); padding: 1.5rem;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--grey-200);
+  transition: all var(--transition);
+}
+.funder-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.funder-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--navy); line-height: 1.4; }
+.funder-card p { font-size: 0.85rem; color: var(--grey-600); line-height: 1.75; margin-top: 0.75rem; }
+.funder-logo {
+  max-width: 100%; max-height: 60px; width: auto; height: auto;
+  margin-bottom: 1rem; background: var(--navy-dark); border-radius: 6px; padding: 0.5rem 0.75rem;
+}
+
+/* ============================================================
    PUBLICATIONS
    ============================================================ */
 .pub-profile-card {
