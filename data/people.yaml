@@ -27,14 +27,6 @@ postdocs:
     email: "p.eze@qub.ac.uk"
     scholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=2uJuSzUAAAAJ"
 
-  - name: "Dr. Nick Dimonaco"
-    title: "Research Fellow"
-    initials: "ND"
-    bio: "Completed a PhD in Biological Sciences at Aberystwyth University focused on improving prokaryotic genome annotation through comparative studies and novel computational techniques."
-    email: "nicholas@dimonaco.co.uk"
-    twitter: "https://twitter.com/nickdimonaco"
-    scholar: "https://scholar.google.com/citations?user=MKtAelUAAAAJ&hl=en"
-
   - name: "Dr. James Gillespie"
     photo: "/images/people/james-gillespie.jpeg"
     title: "Postdoctoral Research Fellow"
@@ -42,21 +34,20 @@ postdocs:
     bio: "PhD in Machine Learning, with experience ranging from reinforcement learning to transformer-based models. Current research focuses on developing machine learning tools for the Co-Centre for Sustainable Food Systems, with additional interests in machine learning for genomics."
     email: "j.gillespie@qub.ac.uk"
 
-phd_students:
-  - name: "Stephen Courtney"
-    photo: "/images/people/stephen-courtney.jpeg"
-    title: "PhD Student"
-    initials: "SC"
-    bio: "PhD researcher in the Creevey Lab. Research project details to be added."
-    email: ""
-
-  - name: "Emmet Campbell"
+  - name: "Dr. Emmet Campbell"
     photo: "/images/people/emmet-campbell.jpeg"
-    title: "PhD Student"
+    title: "Postdoctoral Research Fellow"
     initials: "EC"
-    bio: "Studying Syn-Bio bacteriophage therapies to combat Streptococcus suis infections in pigs. Part of the Phage-SUAS project between Queen's University Belfast, University College Cork, Teagasc, and University of Wisconsin-Madison."
+    bio: "Postdoctoral researcher working on a DSTL-funded project in microbial genomics."
     email: "ecampbell50@qub.ac.uk"
     twitter: "https://twitter.com/the_phagemage"
+
+phd_students:
+  - name: "Katie Magill"
+    title: "PhD Student (FoodBiosystems)"
+    initials: "KM"
+    bio: "PhD student in the Creevey Lab, funded by FoodBiosystems. Project details to be added."
+    email: ""
 
   - name: "John-Paul Wilkins"
     photo: "/images/people/john-paul-wilkins.jpeg"
@@ -87,8 +78,23 @@ phd_students:
     email: ""
 
 msc_students:
-  - name: "Katie Magill"
+  - name: "Ethan Gorman"
     title: "MSci Student"
-    initials: "KM"
+    initials: "EG"
     bio: "MSci student in the Creevey Lab. Project details to be added."
     email: ""
+
+undergrads:
+  title: "Final Year Project Students"
+  names:
+    - "Maddie Crawford-McCann"
+    - "Thomas McCreary"
+    - "Ava McEvoy"
+    - "Angelina Benny"
+
+alumni:
+  - name: "Dr. Nick Dimonaco"
+    title: "Research Fellow"
+
+  - name: "Stephen Courtney"
+    title: "PhD Student"

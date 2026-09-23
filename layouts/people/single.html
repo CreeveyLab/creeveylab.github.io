@@ -100,6 +100,27 @@
     </div>
     {{ end }}
 
+    <!-- Undergraduate Project Students -->
+    {{ with hugo.Data.people.undergrads }}
+    <div class="team-section-label">{{ .title }}</div>
+    <div class="undergrad-card" style="margin-bottom: 3.5rem;">
+      {{ delimit .names ", " }}
+    </div>
+    {{ end }}
+
+    <!-- Alumni -->
+    {{ with hugo.Data.people.alumni }}
+    <div class="team-section-label">Alumni</div>
+    <div class="alumni-list" style="margin-bottom: 3.5rem;">
+      {{ range . }}
+      <div class="alumni-item">
+        <span class="alumni-name">{{ .name }}</span>
+        <span class="alumni-title">{{ .title }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
     <!-- Join Us -->
     <div class="join-box">
       <h2>Interested in Joining the Lab?</h2>

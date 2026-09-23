@@ -358,6 +358,26 @@ a:hover { color: var(--teal-light); }
 }
 .team-link:hover { background: var(--navy); color: var(--white); }
 
+/* Undergraduate project students */
+.undergrad-card {
+  background: var(--white); border: 1px solid var(--grey-200); border-radius: var(--radius);
+  padding: 1.5rem; max-width: var(--max-width); margin: 0 auto;
+  font-size: 0.95rem; color: var(--grey-900); font-weight: 600; line-height: 1.6;
+}
+
+/* Alumni */
+.alumni-list {
+  display: flex; flex-wrap: wrap; gap: 0.75rem;
+  max-width: var(--max-width); margin: 0 auto;
+}
+.alumni-item {
+  display: flex; align-items: center; gap: 0.5rem;
+  background: var(--off-white); border: 1px solid var(--grey-200); border-radius: 999px;
+  padding: 0.5rem 1rem; font-size: 0.85rem;
+}
+.alumni-name { font-weight: 600; color: var(--grey-900); }
+.alumni-title { color: var(--grey-600); }
+
 /* News */
 .news-list { display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 0 auto; }
 .news-list-home { gap: 1.5rem; }
